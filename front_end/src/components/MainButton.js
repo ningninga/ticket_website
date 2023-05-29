@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import React from 'react';
 
-function MainButton({onClick}) {
+function MainButton({onClick, text}) {
   return (
     <>
       <div className="mb-2 fixed-button">
@@ -10,7 +10,7 @@ function MainButton({onClick}) {
         size="lg"
         onClick={onClick}
         >
-          Explore More
+          {text}
         </Button>
       </div>
     

@@ -27,7 +27,7 @@ function App() {
             <>
               <div className="background-image"></div>
               <MainText />
-              {!showForm && <MainButton onClick={toggleFormVisibility} />}
+              {!showForm && <MainButton onClick={toggleFormVisibility} text="Explore More"/>}
               {showForm && (
                 <div className="FormWrapper">
                   <InfoForm onClose={toggleFormVisibility} />
@@ -39,7 +39,7 @@ function App() {
             <>
               <div className="background-image"></div>
               <MainText />
-              {!showForm && <MainButton onClick={toggleFormVisibility} />}
+              {!showForm && <MainButton onClick={toggleFormVisibility} text="Explore More"/>}
               {showForm && (
                 <div className="FormWrapper">
                   <InfoForm onClose={toggleFormVisibility} />
